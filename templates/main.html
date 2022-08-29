@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/main.css') }}">
+    <title>Main</title>
+</head>
+<body>
+    
+    <div>
+        <form action="/table" enctype="multipart/form-data" method="post" id="main-div">
+            <div>
+                <label for="input_file" id="label">............<span id="download-span-text">Download</span>............</label>
+                <input type="file" name="csv_file_input" id="input_file" accept=".csv">
+            </div>
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

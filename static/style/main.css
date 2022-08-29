@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_file{
+    display: none;
+}
+
+#label{
+    font-size: 100px;
+    background-color: aqua;
+    color: aqua;
+    border-radius: 10px;
+}
+
+#submit-button{
+    width: 700px;
+    height: 30px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+#download-span-text{
+    color: black;
+    font-size: 20px;
+}
